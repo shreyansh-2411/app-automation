@@ -1,0 +1,21 @@
+{
+  "baseUri": "https://api-cric.staging.rario.com",
+  "goofyApis": [
+    {
+      "resourcePath": "/goofy/games/contests/${VAR}/kpis",
+      "name": "getMatchKpi",
+      "x-user-id": "qwerty",
+      "requestMethod": "GET"
+    },
+    {
+      "resourcePath": "goofy/games/contests/46/innings/team",
+      "name": "submitInnings",
+      "x-user-id": "qwerty"
+    },
+    {
+      "resourcePath": "goofy/games/contests",
+      "name": "getContest"
+    }
+  ]
+
+}

@@ -1,0 +1,46 @@
+{
+  "isLocal": true,
+  "appiumLocalUrl": "http://127.0.0.1:4723/",
+  "lt_username": "vinod.kumarrario",
+  "lt_accessKey": "BsgHjy7XcGD4OcstSBPPC14Wq6EzI5lW6YGNAHGX7k4o1pDd1O",
+  "lt_gridUrl": "@hub.lambdatest.com/wd/hub",
+  "ltOptions": [
+    {
+      "deviceName": "pixel 7",
+      "buildName": "GamesOye automation",
+      "platformName": "android",
+      "platformVersion": "12",
+      "isRealDevice": true,
+      "appReset": true,
+      "idleTimeout": 10,
+      "network": true,
+      "autoGrantPermissions": true,
+      "app": "/src/test/resources/gamesoye-apps/gamesoye_1.apk"
+    }
+  ],
+  "localOptions": [
+    {
+      "deviceName": "emulator-5554",
+      "platformName": "android",
+      "automationName": "UiAutomator2",
+      "appReset": true,
+      "idleTimeout": 10,
+      "autoGrantPermissions": true,
+      "app": "/src/test/resources/gamesoye-apps/gamesoye_1.apk"
+    }
+    ],
+    "WebSocket": [
+      {
+        "WEBSOCKET_URI": "wss://ws-cric.staging.rario.com/game-ws",
+        "DEVICE_ID":"INTELLIJ-EMULATOR",
+        "CONNECTION_NAME" : "sms",
+        "DREAM_AUTH_AUTHORIZATION" : "hP9ecqPd5g_KCLhNglbrGIB1VMWZcYxQrhSyqtiZX6c"
+      }
+    ],
+  "StarsData": [
+    {
+      "participation_stars" : "93",
+      "winning_stars" : "19"
+    }
+  ]
+}
